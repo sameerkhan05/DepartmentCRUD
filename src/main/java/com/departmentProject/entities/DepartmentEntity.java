@@ -22,9 +22,9 @@ public class DepartmentEntity {
 	private Long id;
 	private String title;
 	private LocalDateTime createdAt;
-	@JsonProperty("isActive")
-	private Boolean isActive;
 	private String password;
 	private Integer primeNumber;
+	@JsonProperty("isActive")
+	private Boolean isActive;
 
 }
